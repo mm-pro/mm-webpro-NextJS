@@ -27,6 +27,10 @@ export default {
       'xl': '1280px',
       '2xl': '1536px',
     },
+    boxShadow: {
+      'black' : '4px 4px 0 #000',
+      'white' : '4px 4px 0 #fff',
+    }
   },
   plugins: [],
 };
