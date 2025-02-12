@@ -21,6 +21,13 @@ import docker from './docker-icon.svg'
 import jira from './jira-icon.svg'
 import aws from './aws-icon.svg'
 import cloudflare from './cloudflare-icon.svg'
+import webIcon from './web-icon.svg'
+import mobileIcon from './mobile-icon.svg'
+import cloudIcon from './cloud-icon.svg'
+import repairIcon from './repair-icon.svg'
+import apiIcon from './api-icon.svg'
+import databaseIcon from './database-icon.svg'
+import rightArrow from './right-arrow-circle.svg'
 
 
  export const assets = { 
@@ -47,7 +54,13 @@ import cloudflare from './cloudflare-icon.svg'
       jira,
       aws,
       cloudflare,
-
+      webIcon,
+      mobileIcon,
+      repairIcon,
+      databaseIcon,
+      apiIcon,
+      cloudIcon,
+      rightArrow
 
  };
 
@@ -67,10 +80,12 @@ import cloudflare from './cloudflare-icon.svg'
 ];
 
  export const serviceData = [
-    { },
-    { },
-    { },
-    { },
+    { icon:assets.webIcon, title:'Web Development', description:"I have strong web development skills, enabling me to build dynamic, high-performance websites and applications using modern technologies and best practices.", link:'' },
+    { icon:assets.mobileIcon, title:'Mobile App', description:"I am proficient in mobile development, creating intuitive and efficient applications for both iOS and Android platforms that offer seamless user experiences", link:'' },
+    { icon:assets.apiIcon, title:'API Development and Integration', description:"Creating RESTful or GraphQL APIs to facilitate communication between the front end and back end, as well as integrating third-party APIs.", link:'' },
+    { icon:assets.databaseIcon, title:'Database Management', description:"Designing, implementing, and managing databases (SQL or NoSQL) to ensure efficient data storage and retrieval.", link:'' },
+    { icon:assets.cloudIcon, title:'DevOps and Deployment', description:"Setting up CI/CD pipelines, managing cloud services (AWS, Cloudflare), and ensuring smooth deployment and scalability of applications.", link:'' },
+    { icon:assets.repairIcon, title:'Maintenance and Support', description:"Providing ongoing maintenance, bug fixes, updates, and technical support post-deployment.", link:'' },
 ];
 
  export const infoList = [
