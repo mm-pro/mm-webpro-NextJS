@@ -28,6 +28,16 @@ import repairIcon from './repair-icon.svg'
 import apiIcon from './api-icon.svg'
 import databaseIcon from './database-icon.svg'
 import rightArrow from './right-arrow-circle.svg'
+import sendIcon from './send-icon.svg'
+
+import coffeeShop from './projects/coffeeShop.png'
+import coinfarm from './projects/coinfarm.png'
+import etekvn from './projects/e-tek-vn.png'
+import junglebet from './projects/junglebet.png'
+import kaitenji from './projects/kaitenji.png'
+import nfinityAI from './projects/nfinityAI.png'
+import sound from './projects/sound.png'
+import onepass from './projects/onepass.png'
 
 
  export const assets = { 
@@ -60,23 +70,60 @@ import rightArrow from './right-arrow-circle.svg'
       databaseIcon,
       apiIcon,
       cloudIcon,
-      rightArrow
+      rightArrow,
+      sendIcon
 
  };
 
  export const workData = [
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-
+    {
+      title:'Casino Betting App - Junglebet',
+      description:'Full Stack Web Development',
+      bgImage:junglebet,
+      link:'https://junglebet.com/',
+    },
+    {
+      title:'Japanese Learning App',
+      description:'Full-Stack Web Development',
+      bgImage:kaitenji,
+      link:'https://kaitenji.com/',
+    },
+    {
+      title:'Nfinity Web3 AI App',
+      description:'Front-end Web Development',
+      bgImage:nfinityAI,
+      link:'https://app.nfinityai.xyz',
+    },
+    {
+      title:'One Pass',
+      description:'Full-Stack Mobile App Development',
+      bgImage:onepass,
+      link:'https://onepass.com.au/',
+    },
+    {
+      title:'NFT Music Web3 Application',
+      description:'Full-Stack Development',
+      bgImage:sound,
+      link:'https://www.sound.xyz/',
+    },
+    {
+      title:'Coffee Shop Ecommerce Website',
+      description:'Shopify Development',
+      bgImage:coffeeShop,
+      link:'https://takecoffeelab.net/',
+    },
+    {
+      title:'Coinfarm Web3 Application',
+      description:'Front-end Web Development',
+      bgImage:coinfarm,
+      link:'https://coinfarm.online',
+    },
+    {
+      title:'Electronic Ecommerce Website',
+      description:'Full-Stack Web Development',
+      bgImage:etekvn,
+      link:'https://e-tek.vn/',
+    },
 ];
 
  export const serviceData = [
