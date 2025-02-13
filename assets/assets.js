@@ -29,6 +29,14 @@ import apiIcon from './api-icon.svg'
 import databaseIcon from './database-icon.svg'
 import rightArrow from './right-arrow-circle.svg'
 import sendIcon from './send-icon.svg'
+import briefCaseIcon from './briefcase-icon.svg'
+import typeScriptIcon from './typescript-icon.svg'
+import reactIcon from './react-original-icon.svg'
+import nextjsIcon from './nextjs-icon.svg'
+import vueIcon from './vue-icon.svg'
+import svelteIcon from './svelte-icon.svg'
+import nodejsIcon from './nodejs-icon.svg'
+import pythonIcon from './python-icon.svg'
 
 import coffeeShop from './projects/coffeeShop.png'
 import coinfarm from './projects/coinfarm.png'
@@ -38,6 +46,7 @@ import kaitenji from './projects/kaitenji.png'
 import nfinityAI from './projects/nfinityAI.png'
 import sound from './projects/sound.png'
 import onepass from './projects/onepass.png'
+import next from 'next'
 
 
  export const assets = { 
@@ -71,7 +80,15 @@ import onepass from './projects/onepass.png'
       apiIcon,
       cloudIcon,
       rightArrow,
-      sendIcon
+      sendIcon,
+      briefCaseIcon,
+      typeScriptIcon,
+      reactIcon,
+      nextjsIcon,
+      vueIcon,
+      svelteIcon,
+      nodejsIcon,
+      pythonIcon,
 
  };
 
@@ -134,6 +151,93 @@ import onepass from './projects/onepass.png'
     { icon:assets.cloudIcon, title:'DevOps and Deployment', description:"Setting up CI/CD pipelines, managing cloud services (AWS, Cloudflare), and ensuring smooth deployment and scalability of applications.", link:'' },
     { icon:assets.repairIcon, title:'Maintenance and Support', description:"Providing ongoing maintenance, bug fixes, updates, and technical support post-deployment.", link:'' },
 ];
+
+  export const careerData = [
+    { companyName:"Freelancer",
+      icon:briefCaseIcon, 
+      role:"Freelancer Software Developer", 
+      dates:" Mar 2022 - Present",
+      stack:[
+        {icon:typeScriptIcon, name:"TypeScript"},
+        {icon:reactIcon, name:"React"},
+        {icon:nextjsIcon, name:"NextJS"},
+        {icon:vueIcon, name:"Vue"},
+        {icon:svelteIcon, name:"Svelte"},
+        {icon:nodejsIcon, name:"NodeJS"},
+        {icon:pythonIcon, name:"Python"},
+        {icon:postgresql, name:"PostgreSQL"}
+      ],
+      description:(
+        <ul>
+          <li>
+            <p>I am currently working as a freelancer or short-term contract developer in several companies and groups.</p>
+          </li>
+          <li>
+            <p>I have developed lots of innovative and dynamic applications such as Gambling applications using modern stacks as a freelancer.</p>
+          </li>
+          <li>
+            <p>Now I am focusing to build optimized and scalable backend system with my projects. I am learning Java-backend for web and mobile application. </p>
+          </li>
+          <li>
+            <p>In future, I am gonna jump into innovative AI and Gambling software development.</p>
+          </li>
+        </ul>
+      )
+    },
+    { companyName:"BAP Software",
+      icon:briefCaseIcon, 
+      role:"Full Stack Software Developer", 
+      dates:" Mar 2021 - Mar 2022",
+      stack:[
+        {icon:typeScriptIcon, name:"TypeScript"},
+        {icon:reactIcon, name:"React"},
+        {icon:nodejsIcon, name:"NodeJS"},
+        {icon:pythonIcon, name:"Python"},
+        {icon:postgresql, name:"PostgreSQL"}
+      ],
+      description:(
+        <ul>
+          <li>
+            <p>Established the micro-service for the online software marketing platform using Node.js, making the rapid delivery of software with a resulting 13% revenue increase.</p>
+          </li>
+          <li>
+            <p>Produced a scalable payroll system throughout both front and back-end side using HTML/CSS, JavaScript/Typescript, Python/FastAPI, and React.js/Next.js to effectively
+manage employees and reduce company costs by 3%.</p>
+          </li>
+          <li>
+            <p>Reducing response times by 20% using Redis caching for quicker data retrieval. </p>
+          </li>
+        </ul>
+      )
+    },
+    { companyName:"Luvina JSC",
+      icon:briefCaseIcon, 
+      role:"Full time Web Developer", 
+      dates:" Oct 2017 - Aug 2020",
+      stack:[
+        {icon:typeScriptIcon, name:"TypeScript"},
+        {icon:reactIcon, name:"React"},
+        {icon:nextjsIcon, name:"NextJS"},
+        {icon:vueIcon, name:"Vue"},
+        {icon:svelteIcon, name:"Svelte"},
+        {icon:nodejsIcon, name:"NodeJS"},
+        {icon:pythonIcon, name:"Python"},
+        {icon:postgresql, name:"PostgreSQL"}
+      ],
+      description:(
+        <ul>
+          <li>
+            <p>As a full time web developer, I have participated in various.
+At that time, I learnt lots of tech and especially I have gained lots of experiences in React, Vue, Svelte, Angular, Node.js, Python/Django and Java.
+Also I learnt team collaboration, tips of project architecture, implementing high-quality code base etc. 
+As a result, I have grown to a full stack developer.</p>
+          </li>
+        </ul>
+      )
+    },
+
+  ];
+  
 
  export const infoList = [
     { icon:assets.codeIcon, iconDark: assets.codeIconDark, title:'Languages', description:'HTML, CSS, JS/TS, PHP, Python, Go' },

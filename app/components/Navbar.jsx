@@ -37,6 +37,7 @@ const Navbar = () => {
             <li><a href="#top" className='font-Ovo'>Home</a></li>
             <li><a href="#about" className='font-Ovo'>About me</a></li>
             <li><a href="#services" className='font-Ovo'>Services</a></li>
+            <li><a href="#career" className='font-Ovo'>Career</a></li>
             <li><a href="#work" className='font-Ovo'>My work</a></li>
             <li><a href="#contact" className='font-Ovo'>Contact me</a></li>
         </ul>
