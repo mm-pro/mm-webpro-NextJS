@@ -44,7 +44,7 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a href="#top" className='flex'>
+                <a href="#about" className='flex'>
                     <p className="m-2 group relative">
                         <span className='font-Ovo'>About</span>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
@@ -53,7 +53,7 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a href="#top" className='flex'>
+                <a href="#services" className='flex'>
                     <p className="m-2 group relative">
                         <span className='font-Ovo'>Services</span>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a href="#top" className='flex'>
+                <a href="#career" className='flex'>
                     <p className="m-2 group relative">
                         <span className='font-Ovo'>Career</span>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a href="#top" className='flex'>
+                <a href="#work" className='flex'>
                     <p className="m-2 group relative">
                         <span className='font-Ovo'>My Work</span>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
@@ -80,7 +80,7 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a href="#top" className='flex'>
+                <a href="#contact" className='flex'>
                     <p className="m-2 group relative">
                         <span className='font-Ovo'>Contact</span>
                         <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
