@@ -11,7 +11,7 @@ const Header = () => {
         </div>
 
         <h3 className='flex items-end gap-2 text-xl md:text-3xl mb-3 font-Ovo'>
-              Hi👋 I'm Dinh (just call me Dan) 
+              Hi👋 I'm Dinh (Just call me Dan) 
         </h3>
         <h1 className='text-3xl sm:text-4xl lg:text-5xl font-Ovo'>
           Software Developer based in Sweden
@@ -21,8 +21,8 @@ const Header = () => {
         </p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-          <a href="#contact" className='px-10 py-3 border border-gray-500 rounded-full flex items-center gap-2'>Contact me <Image src={assets.arrowRightUp} alt='' className='w-4'/></a>
-          <a href="/Resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>My resume <Image src={assets.downloadIcon} alt='' className='w-4'/></a>
+          <a href="#contact" className='px-10 py-3 border border-gray-500 rounded-full flex items-center gap-2 hover:bg-amber-300 duration-500'>Contact me <Image src={assets.arrowRightUp} alt='' className='w-4'/></a>
+          <a href="/Resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-amber-300 duration-500'>My resume <Image src={assets.downloadIcon} alt='' className='w-4'/></a>
         </div>
     </div>
   )
