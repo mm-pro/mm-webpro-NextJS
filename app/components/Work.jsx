@@ -42,7 +42,7 @@ const Work = () => {
       {visibleProjects < workData.length && (
         <button
           onClick={handleShowMore}
-          className='mx-auto mt-10 px-10 py-3 border border-gray-500 rounded-full flex items-center hover:bg-amber-300 duration-500 hover:scale-105'
+          className='mx-auto mt-8 px-10 py-3 border border-gray-500 rounded-full flex items-center hover:bg-amber-300 duration-500 hover:scale-105'
         >
           Show more ...
         </button> 
