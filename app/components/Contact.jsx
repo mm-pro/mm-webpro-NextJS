@@ -38,8 +38,8 @@ const Contact = () => {
         </h2>
         <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 mb-8'>
-                <input type="text" name='name' placeholder='Enter your name' required className='flex-1 p-1 outline-none border-[0.5px] border-gray-400 rounded-md' />
-                <input type="email" name='email' placeholder='Enter your email' required className='flex-1 p-1 outline-none border-[0.5px] border-gray-400 rounded-md' />
+                <input type="text" name='name' placeholder='Enter your name' required className='flex-1 py-1 px-2 outline-none border-[0.5px] border-gray-400 rounded-md' />
+                <input type="email" name='email' placeholder='Enter your email' required className='flex-1 py-1 px-2 outline-none border-[0.5px] border-gray-400 rounded-md' />
             </div>
             <textarea rows='6' id="" name='message' placeholder='Enter your message' required
              className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6'></textarea>
