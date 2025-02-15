@@ -36,7 +36,7 @@ const Footer = () => {
             </ul>
         </div>
         <p className='text-center mb-2'>Created by Dan @2025</p>
-        <p className='flex items-center justify-center mb-10'>Made with&nbsp;<Image src={assets.tailwindcssIcon} alt='' className='w-6'/>&nbsp;TailwindCSS&nbsp;+&nbsp;<Image src={assets.nextjsIcon} alt='' className='w-6'/>&nbsp;Next.js</p>
+        <p className='flex items-center justify-center mb-6'>Made with&nbsp;<Image src={assets.tailwindcssIcon} alt='' className='w-6'/>&nbsp;TailwindCSS&nbsp;+&nbsp;<Image src={assets.nextjsIcon} alt='' className='w-6'/>&nbsp;Next.js</p>
     </div>
   )
 }
