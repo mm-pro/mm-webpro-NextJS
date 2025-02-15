@@ -5,6 +5,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Work from "./components/Work"
 import Career from "./components/Career";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <Services />
     <Career />
     <Work />
+    <Contact />
     </>
   );
 }
