@@ -27,7 +27,7 @@ import cloudIcon from './cloud-icon.svg'
 import repairIcon from './repair-icon.svg'
 import apiIcon from './api-icon.svg'
 import databaseIcon from './database-icon.svg'
-import rightArrow from './right-arrow-circle.svg'
+import rightArrow from './right-arrow.svg'
 import sendIcon from './send-icon.svg'
 import briefCaseIcon from './briefcase-icon.svg'
 import typeScriptIcon from './typescript-icon.svg'
@@ -37,6 +37,12 @@ import vueIcon from './vue-icon.svg'
 import svelteIcon from './svelte-icon.svg'
 import nodejsIcon from './nodejs-icon.svg'
 import pythonIcon from './python-icon.svg'
+import tailwindcssIcon from './tailwindcss-icon.svg'
+import emailIcon from './email-white-icon.svg'
+import linkedinIcon from './linkedin-black-icon.svg'
+import githubIcon from './github-black-icon.svg'
+import blueskyIcon from './butterfly-black-icon.svg'
+import discordIcon from './discord-black_icon.svg'
 
 import coffeeShop from './projects/coffeeShop.png'
 import coinfarm from './projects/coinfarm.png'
@@ -89,6 +95,12 @@ import next from 'next'
       svelteIcon,
       nodejsIcon,
       pythonIcon,
+      emailIcon,
+      githubIcon,
+      linkedinIcon,
+      blueskyIcon,
+      discordIcon,
+      tailwindcssIcon
 
  };
 

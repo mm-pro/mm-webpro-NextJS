@@ -21,16 +21,15 @@ const Contact = () => {
         const data = await response.json();
 
         if (data.success) {
-        setResult("Form Submitted Successfully");
+        setResult("Your message submitted successfully!");
         event.target.reset();
         } else {
-        console.log("Error", data);
         setResult(data.message);
         }
     };
 
   return (
-    <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20 '>
+    <div id='contact' className='w-full px-[12%] pt-10 scroll-mt-20 '>
         <h4 className='text-center mb-2 text-lg font-Ovo'>
             Connect with me
         </h4>
@@ -48,7 +47,7 @@ const Contact = () => {
                 Submit&nbsp;<Image src={assets.sendIcon} alt='' className='w-4' />
             </button>
 
-            <p className='mt-4'>{result}</p>
+            <p className='mt-4 text-center text-gray-500 mb-4'>{result}</p>
         </form>
     </div>
   )

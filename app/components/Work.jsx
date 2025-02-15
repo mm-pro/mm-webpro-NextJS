@@ -32,7 +32,7 @@ const Work = () => {
                 <h2 className='font-semibold'>{project.title}</h2>
                 <p className='text-sm text-gray-700'>{project.description}</p>
               </div>
-              <a href={project.link} className='rounded-lg p-2 flex items-center justify-center group-hover:bg-amber-300' >
+              <a href={project.link} className='rounded-lg p-2 flex items-center justify-center group-hover:bg-amber-300 duration-500' >
                 <Image src={assets.sendIcon} alt='' className='w-8'/>
               </a>
             </div>
@@ -42,7 +42,7 @@ const Work = () => {
       {visibleProjects < workData.length && (
         <button
           onClick={handleShowMore}
-          className='mx-auto px-10 py-3 border border-gray-500 rounded-full flex items-center hover:bg-amber-300'
+          className='mx-auto px-10 py-3 border border-gray-500 rounded-full flex items-center hover:bg-amber-300 duration-500'
         >
           Show more ...
         </button> 
