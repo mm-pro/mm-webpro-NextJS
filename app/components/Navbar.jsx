@@ -29,11 +29,11 @@ const Navbar = () => {
     <>
      <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50
         ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
-        <a href="#top">
-            <Image src={assets.logo} alt='' className='w-16 cursor-pointer mr-14' />
+        <a href="#top" className='flex px-10'>
+            <Image src={assets.logo} alt='' className='w-12 cursor-pointer' />
         </a>
 
-        <ul className={`hidden md:flex items-center gap-4 rounded-full px-12 py-3 ${isScroll ? "" : " bg-white shadow-sm bg-opacity-50"}`}>
+        <ul className={`hidden md:flex items-center gap-4 rounded-full px-12 py-2 ${isScroll ? "" : " bg-white shadow-sm bg-opacity-50"}`}>
             <li>
                 <a href="#top" className='flex'>
                     <p className="m-2 group relative">
@@ -92,11 +92,13 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-4'>
-            <button className='flex hover:scale-110 duration-500'>
-                <Image src={assets.moonIcon} alt='' className='w-6' />
+            <button className='flex hover:scale-[120%] duration-500'>
+                <Image src={assets.moonIcon} alt='' className='w-5' />
             </button>
 
-            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2 border border-gray-500 rounded-full ml-4 font-Ovo hover:scale-105 hover:bg-amber-200 duration-500'>Contact <Image src={assets.arrowRightUp} alt='' className='w-3' /></a>
+            <a href="#contact" className='hidden lg:flex items-center gap-4 px-8 py-2 border border-gray-500 rounded-full font-Ovo hover:scale-105 hover:bg-amber-200 duration-500'>
+                Contact <Image src={assets.arrowRightUp} alt='' className='w-3' />
+            </a>
 
             <button className='block md:hidden ml-3' onClick={openMenu}>
                 <Image src={assets.menuIcon} alt='' className='w-6' />

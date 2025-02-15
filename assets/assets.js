@@ -1,4 +1,4 @@
-import logo from './logo.svg'
+import logo from './owl-icon.svg'
 import arrowRightUp from './arrow-right-up.svg'
 import moonIcon from './moon-icon.svg'
 import menuIcon from './menu-icon.svg'
