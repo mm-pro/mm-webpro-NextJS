@@ -43,11 +43,11 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-4'>
-            <button className=''>
+            <button className='flex hover:scale-110 duration-500'>
                 <Image src={assets.moonIcon} alt='' className='w-6' />
             </button>
 
-            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2 border border-gray-500 rounded-full ml-4 font-Ovo'>Contact <Image src={assets.arrowRightUp} alt='' className='w-3' /></a>
+            <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2 border border-gray-500 rounded-full ml-4 font-Ovo hover:scale-105 duration-500'>Contact <Image src={assets.arrowRightUp} alt='' className='w-3' /></a>
 
             <button className='block md:hidden ml-3' onClick={openMenu}>
                 <Image src={assets.menuIcon} alt='' className='w-6' />

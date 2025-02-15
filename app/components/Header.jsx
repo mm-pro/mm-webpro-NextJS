@@ -21,8 +21,8 @@ const Header = () => {
         </p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-          <a href="#contact" className='px-10 py-3 border border-gray-500 rounded-full flex items-center gap-2 hover:bg-amber-300 duration-500'>Contact me <Image src={assets.arrowRightUp} alt='' className='w-4'/></a>
-          <a href="/Resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-amber-300 duration-500'>My resume <Image src={assets.downloadIcon} alt='' className='w-4'/></a>
+          <a href="#contact" className='px-10 py-3 border border-gray-500 rounded-full flex items-center gap-2 hover:bg-amber-300 duration-500 hover:scale-105'>Contact me <Image src={assets.arrowRightUp} alt='' className='w-4'/></a>
+          <a href="/Resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-amber-300 duration-500 hover:scale-105'>My resume <Image src={assets.downloadIcon} alt='' className='w-4'/></a>
         </div>
     </div>
   )
