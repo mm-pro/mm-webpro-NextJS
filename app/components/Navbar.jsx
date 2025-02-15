@@ -33,13 +33,62 @@ const Navbar = () => {
             <Image src={assets.logo} alt='' className='w-16 cursor-pointer mr-14' />
         </a>
 
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : " bg-white shadow-sm bg-opacity-50"}`}>
-            <li><a href="#top" className='font-Ovo'>Home</a></li>
-            <li><a href="#about" className='font-Ovo'>About me</a></li>
-            <li><a href="#services" className='font-Ovo'>Services</a></li>
-            <li><a href="#career" className='font-Ovo'>Career</a></li>
-            <li><a href="#work" className='font-Ovo'>My work</a></li>
-            <li><a href="#contact" className='font-Ovo'>Contact me</a></li>
+        <ul className={`hidden md:flex items-center gap-4 rounded-full px-12 py-3 ${isScroll ? "" : " bg-white shadow-sm bg-opacity-50"}`}>
+            <li>
+                <a href="#top" className='flex'>
+                    <p className="m-2 group relative">
+                        <span className='font-Ovo'>Home</span>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#top" className='flex'>
+                    <p className="m-2 group relative">
+                        <span className='font-Ovo'>About</span>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#top" className='flex'>
+                    <p className="m-2 group relative">
+                        <span className='font-Ovo'>Services</span>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#top" className='flex'>
+                    <p className="m-2 group relative">
+                        <span className='font-Ovo'>Career</span>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#top" className='flex'>
+                    <p className="m-2 group relative">
+                        <span className='font-Ovo'>My Work</span>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="#top" className='flex'>
+                    <p className="m-2 group relative">
+                        <span className='font-Ovo'>Contact</span>
+                        <span className="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                        <span className="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
+                    </p>
+                </a>
+            </li>
+            
         </ul>
 
         <div className='flex items-center gap-4'>
