@@ -33,7 +33,7 @@ const Work = () => {
                 <p className='text-sm text-gray-700'>{project.description}</p>
               </div>
               <a href={project.link} className='rounded-lg p-2 flex items-center justify-center group-hover:bg-amber-300 duration-500' >
-                <Image src={assets.sendIcon} alt='' className='w-8'/>
+                <Image src={assets.sendIcon} alt='' className='w-6'/>
               </a>
             </div>
           </div>
