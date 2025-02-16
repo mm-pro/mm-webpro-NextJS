@@ -254,7 +254,7 @@ As a result, I have grown to a full stack developer.</p>
  export const infoList = [
     { icon:assets.codeIcon, iconDark: assets.codeIconDark, title:'Languages', description:'HTML, CSS, JS/TS, PHP, Python, Go' },
     { icon:assets.eduIcon, iconDark: assets.eduIconDark, title:'Education', description:'Bachelor of Computer Science' },
-    { icon:assets.projectIcon, iconDark: assets.projectIconDark, title:'Projects', description:'Built over 20 projects' },
+    { icon:assets.projectIcon, iconDark: assets.projectIconDark, title:'Projects', description:'Built over 50 projects' },
  ];
 
  export const toolsData = [
