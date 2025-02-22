@@ -154,12 +154,12 @@ import next from 'next'
 ];
 
  export const serviceData = [
-    { icon:assets.webIcon, title:'Web Development', description:"I have strong web development skills, enabling me to build dynamic, high-performance websites and applications using modern technologies and best practices.", link:'' },
-    { icon:assets.mobileIcon, title:'Mobile App', description:"I am proficient in mobile development, creating intuitive and efficient applications for both iOS and Android platforms that offer seamless user experiences", link:'' },
-    { icon:assets.apiIcon, title:'API Development and Integration', description:"Creating RESTful or GraphQL APIs to facilitate communication between the front end and back end, as well as integrating third-party APIs.", link:'' },
-    { icon:assets.databaseIcon, title:'Database Management', description:"Designing, implementing, and managing databases (SQL or NoSQL) to ensure efficient data storage and retrieval.", link:'' },
-    { icon:assets.cloudIcon, title:'DevOps and Deployment', description:"Setting up CI/CD pipelines, managing cloud services (AWS, Cloudflare), and ensuring smooth deployment and scalability of applications.", link:'' },
-    { icon:assets.repairIcon, title:'Maintenance and Support', description:"Providing ongoing maintenance, bug fixes, updates, and technical support post-deployment.", link:'' },
+    { icon:assets.webIcon, title:'Web Development', description:"I have strong web development skills, enabling me to build dynamic, high-performance websites and applications using modern technologies and best practices.",},
+    { icon:assets.mobileIcon, title:'Mobile App', description:"I am proficient in mobile development, creating intuitive and efficient applications for both iOS and Android platforms that offer seamless user experiences",},
+    { icon:assets.apiIcon, title:'API Development and Integration', description:"Creating RESTful or GraphQL APIs to facilitate communication between the front end and back end, as well as integrating third-party APIs.",},
+    { icon:assets.databaseIcon, title:'Database Management', description:"Designing, implementing, and managing databases (SQL or NoSQL) to ensure efficient data storage and retrieval.",},
+    { icon:assets.cloudIcon, title:'DevOps and Deployment', description:"Setting up CI/CD pipelines, managing cloud services (AWS, Cloudflare), and ensuring smooth deployment and scalability of applications.",},
+    { icon:assets.repairIcon, title:'Maintenance and Support', description:"Providing ongoing maintenance, bug fixes, updates, and technical support post-deployment.",},
 ];
 
   export const careerData = [
@@ -250,9 +250,9 @@ As a result, I have grown to a full stack developer.</p>
   
 
  export const infoList = [
-    { icon:assets.codeIcon, iconDark: assets.codeIconDark, title:'Languages', description:'HTML, CSS, JS/TS, PHP, Python, Go' },
-    { icon:assets.eduIcon, iconDark: assets.eduIconDark, title:'Education', description:'Bachelor of Computer Science' },
-    { icon:assets.projectIcon, iconDark: assets.projectIconDark, title:'Projects', description:'Built over 50 projects' },
+    { icon:assets.codeIcon, title:'Languages', description:'HTML, CSS, JS/TS, PHP, Python, Go' },
+    { icon:assets.eduIcon, title:'Education', description:'Bachelor of Computer Science' },
+    { icon:assets.projectIcon, title:'Projects', description:'Built over 30 projects' },
  ];
 
  export const toolsData = [
