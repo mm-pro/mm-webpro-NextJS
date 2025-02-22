@@ -92,9 +92,6 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-4'>
-            <button className='flex hover:scale-[120%] duration-500'>
-                <Image src={assets.moonIcon} alt='' className='w-5' />
-            </button>
 
             <a href="#contact" className='hidden lg:flex items-center gap-4 px-8 py-2 border border-gray-500 rounded-full font-Ovo hover:scale-105 hover:bg-amber-200 duration-500'>
                 Contact <Image src={assets.arrowRightUp} alt='' className='w-3' />

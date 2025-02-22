@@ -1,6 +1,5 @@
 import logo from './owl-icon.svg'
 import arrowRightUp from './arrow-right-up.svg'
-import moonIcon from './moon-icon.svg'
 import menuIcon from './menu-icon.svg'
 import closeBlack from './close-black.svg'
 import downloadIcon from './download-icon.svg'
@@ -58,7 +57,6 @@ import next from 'next'
  export const assets = { 
     logo,
     arrowRightUp,
-    moonIcon,
     menuIcon,
     closeBlack,
     downloadIcon,
