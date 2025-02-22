@@ -12,7 +12,7 @@ export default {
       colors: {
         lightHover: '#fcf4ff',
         darkHover: '#2a004a',
-        darkTheme: '#110001F',
+        darkTheme: '#110000',
     },
     },
     fontFamily: {
