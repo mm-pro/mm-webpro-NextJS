@@ -6,7 +6,7 @@ const Career = () => {
   return (
     <div id='career' className='w-full px-10 md:px-[10%] lg:px-[20%] py-10 scroll-mt-20'>
         <h4 className='text-center mb-2 text-2xl font-Ovo relative'>The brief of work experience</h4>
-        <h2 className='text-center text-5xl font-Ovo'>My Employment History</h2>
+        <h2 className='text-center text-5xl font-Ovo'>My Career</h2>
 
         <div className='relative mt-12'>
             <ol className='border-l-2 border-gray-300'>
