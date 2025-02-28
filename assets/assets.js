@@ -105,7 +105,7 @@ import next from 'next'
  export const workData = [
     {
       title:'Casino Betting App - Junglebet',
-      description:'Full Stack Web Development',
+      description:'Front-end Web Development',
       bgImage:junglebet,
       link:'https://junglebet.com/',
     },
@@ -123,7 +123,7 @@ import next from 'next'
     },
     {
       title:'One Pass',
-      description:'Full-Stack Mobile App Development',
+      description:'Back-end Mobile App Development',
       bgImage:onepass,
       link:'https://onepass.com.au/',
     },
@@ -134,20 +134,20 @@ import next from 'next'
       link:'https://www.sound.xyz/',
     },
     {
-      title:'Coffee Shop Ecommerce Website',
-      description:'Shopify Development',
+      title:'Coffee Shop e-commerce Website',
+      description:'Shopify',
       bgImage:coffeeShop,
       link:'https://takecoffeelab.net/',
     },
     {
       title:'Coinfarm Web3 Application',
-      description:'Front-end Web Development',
+      description:'Back-end Web Development',
       bgImage:coinfarm,
       link:'https://coinfarm.online',
     },
     {
-      title:'Electronic Ecommerce Website',
-      description:'Full-Stack Web Development',
+      title:'Electronic e-commerce Website',
+      description:'Database Architecture and Optimization',
       bgImage:etekvn,
       link:'https://e-tek.vn/',
     },

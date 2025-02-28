@@ -14,9 +14,9 @@ const About = () => {
             </div>
             <div className='flex-1'>
                 <p className='mb-4 max-w-2xl font-Ovo'>
-                I'm a Software developer with over 7 years experiences focused on web & mobile app development. 
+                I'm a Software developer with over 7 years experiences focused on Backend development. 
                 I am very familiar with coding in Node.js, React.js/Next.js, React Native, Vue.js, SvelteKit and Go(lang), Python/Django. 
-                I am trying to learn and use the cutting-edge technology to solve the problem I'm facing. 
+                I am trying to learn and use the cutting-edge AI technology to solve business process automation. 
                 Adept at creating responsive and intuitive user interfaces, optimizing application performance, and ensuring cross-device compatibility. 
                 I am Vietnamese and I am living in Sweden since 2024.
                 </p>
