@@ -1,4 +1,4 @@
-import logo from './golden-face-mask.svg'
+import logo from './mask-face.png'
 import arrowRightUp from './arrow-right-up.svg'
 import menuIcon from './menu-icon.svg'
 import closeBlack from './close-black.svg'
