@@ -10,12 +10,13 @@ const About = () => {
 
         <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-8'>
             <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
-                <Image src={assets.profileImage} alt='user' className='w-full rounded-3xl' />
+                <Image src={assets.midasImage} alt='user' className='w-full rounded-3xl' />
             </div>
             <div className='flex-1'>
                 <p className='mb-4 max-w-2xl font-Ovo'>
-                I'm a Software developer with over 7 years experiences focused on Backend development. 
-                I am very familiar with coding in Node.js, React.js/Next.js, React Native, Vue.js, SvelteKit and Go(lang), Python/Django. 
+                I'm a Software developer with over 7 years experiences focused on Frontend development. 
+                I am very familiar with coding in Node.js, React.js/Next.js, React Native, Vue.js, SvelteKit and Python/Django. 
+                I have contributed to develop lots of innovative project and would like to work on super excited Gambling & Web3 AI hybrid project.
                 I am trying to learn and use the cutting-edge AI technology to solve business process automation. 
                 Adept at creating responsive and intuitive user interfaces, optimizing application performance, and ensuring cross-device compatibility. 
                 I am Vietnamese and I am living in Sweden since 2024.

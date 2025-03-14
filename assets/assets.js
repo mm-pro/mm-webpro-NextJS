@@ -1,9 +1,8 @@
-import logo from './owl-icon.svg'
+import logo from './golden-face-mask.svg'
 import arrowRightUp from './arrow-right-up.svg'
 import menuIcon from './menu-icon.svg'
 import closeBlack from './close-black.svg'
 import downloadIcon from './download-icon.svg'
-import profileImage from './profile-image.jpg'
 import codeIcon from './code-icon.svg'
 import eduIcon from './education-icon.svg'
 import projectIcon from './project-icon.svg'
@@ -23,7 +22,6 @@ import cloudflare from './cloudflare-icon.svg'
 import webIcon from './web-icon.svg'
 import mobileIcon from './mobile-icon.svg'
 import cloudIcon from './cloud-icon.svg'
-import repairIcon from './repair-icon.svg'
 import apiIcon from './api-icon.svg'
 import databaseIcon from './database-icon.svg'
 import rightArrow from './right-arrow.svg'
@@ -33,6 +31,7 @@ import typeScriptIcon from './typescript-icon.svg'
 import reactIcon from './react-original-icon.svg'
 import nextjsIcon from './nextjs-icon.svg'
 import vueIcon from './vue-icon.svg'
+import nuxtIcon from './nuxt-icon.svg'
 import svelteIcon from './svelte-icon.svg'
 import nodejsIcon from './nodejs-icon.svg'
 import pythonIcon from './python-icon.svg'
@@ -40,9 +39,11 @@ import tailwindcssIcon from './tailwindcss-icon.svg'
 import emailIcon from './email-white-icon.svg'
 import linkedinIcon from './linkedin-black-icon.svg'
 import githubIcon from './github-black-icon.svg'
-import blueskyIcon from './butterfly-black-icon.svg'
 import discordIcon from './discord-black_icon.svg'
+import twitterIcon from './twitter-icon.svg'
 
+import profileImage from './profile-image.jpg'
+import midasImage from './midas.jpg'
 import coffeeShop from './projects/coffeeShop.png'
 import coinfarm from './projects/coinfarm.png'
 import etekvn from './projects/e-tek-vn.png'
@@ -61,6 +62,7 @@ import next from 'next'
     closeBlack,
     downloadIcon,
     profileImage,
+    midasImage,
       codeIcon,
       eduIcon,
       projectIcon,
@@ -79,7 +81,6 @@ import next from 'next'
       cloudflare,
       webIcon,
       mobileIcon,
-      repairIcon,
       databaseIcon,
       apiIcon,
       cloudIcon,
@@ -90,21 +91,22 @@ import next from 'next'
       reactIcon,
       nextjsIcon,
       vueIcon,
+      nuxtIcon,
       svelteIcon,
       nodejsIcon,
       pythonIcon,
       emailIcon,
       githubIcon,
       linkedinIcon,
-      blueskyIcon,
       discordIcon,
+      twitterIcon,
       tailwindcssIcon
 
  };
 
  export const workData = [
     {
-      title:'Casino Betting App - Junglebet',
+      title:'Junglebet',
       description:'Front-end Web Development',
       bgImage:junglebet,
       link:'https://junglebet.com/',
@@ -116,38 +118,38 @@ import next from 'next'
       link:'https://kaitenji.com/',
     },
     {
-      title:'Nfinity Web3 AI App',
+      title:'Nfinity Studio',
       description:'Front-end Web Development',
       bgImage:nfinityAI,
       link:'https://app.nfinityai.xyz',
     },
     {
       title:'One Pass',
-      description:'Back-end Mobile App Development',
+      description:'Front-end Mobile App Development',
       bgImage:onepass,
       link:'https://onepass.com.au/',
     },
     {
       title:'NFT Music Web3 Application',
-      description:'Full-Stack Development',
+      description:'Front-end Wep Development',
       bgImage:sound,
       link:'https://www.sound.xyz/',
     },
     {
       title:'Coffee Shop e-commerce Website',
-      description:'Shopify',
+      description:'Shopify Store Development',
       bgImage:coffeeShop,
       link:'https://takecoffeelab.net/',
     },
     {
-      title:'Coinfarm Web3 Application',
-      description:'Back-end Web Development',
+      title:'Coinfarm',
+      description:'Front-end Web Development',
       bgImage:coinfarm,
       link:'https://coinfarm.online',
     },
     {
       title:'Electronic e-commerce Website',
-      description:'Database Architecture and Optimization',
+      description:'Front-end Web Development',
       bgImage:etekvn,
       link:'https://e-tek.vn/',
     },
@@ -157,39 +159,44 @@ import next from 'next'
     { icon:assets.webIcon, title:'Web Development', description:"I have strong web development skills, enabling me to build dynamic, high-performance websites and applications using modern technologies and best practices.",},
     { icon:assets.mobileIcon, title:'Mobile App', description:"I am proficient in mobile development, creating intuitive and efficient applications for both iOS and Android platforms that offer seamless user experiences",},
     { icon:assets.apiIcon, title:'API Development and Integration', description:"Creating RESTful or GraphQL APIs to facilitate communication between the front end and back end, as well as integrating third-party APIs.",},
-    { icon:assets.databaseIcon, title:'Database Management', description:"Designing, implementing, and managing databases (SQL or NoSQL) to ensure efficient data storage and retrieval.",},
-    { icon:assets.cloudIcon, title:'DevOps and Deployment', description:"Setting up CI/CD pipelines, managing cloud services (AWS, Cloudflare), and ensuring smooth deployment and scalability of applications.",},
-    { icon:assets.repairIcon, title:'Maintenance and Support', description:"Providing ongoing maintenance, bug fixes, updates, and technical support post-deployment.",},
 ];
 
   export const careerData = [
-    { companyName:"Freelancer",
+    { companyName:"Nfinity Studios",
       icon:briefCaseIcon, 
-      role:"Freelancer Software Developer", 
-      dates:" Mar 2022 - Present",
+      role:"Freelancer Front-end Developer", 
+      dates:" Feb 2024 - Aug 2024",
       stack:[
         {icon:typeScriptIcon, name:"TypeScript"},
-        {icon:reactIcon, name:"React"},
-        {icon:nextjsIcon, name:"NextJS"},
-        {icon:vueIcon, name:"Vue"},
         {icon:svelteIcon, name:"Svelte"},
-        {icon:nodejsIcon, name:"NodeJS"},
-        {icon:pythonIcon, name:"Python"},
-        {icon:postgresql, name:"PostgreSQL"}
       ],
       description:(
         <ul>
           <li>
-            <p>I am currently working as a freelancer or short-term contract developer in several companies and groups.</p>
+            <p>In this company, as a freelance front-end developer I have contributed super innovative web3 AI Tool Development.</p>
           </li>
           <li>
-            <p>I have developed lots of innovative and dynamic applications such as Gambling applications using modern stacks as a freelancer.</p>
+            <p>I built seamless UI/UX with Svelte. It was freelance contract and worked for about 6 months. The job was super excited for me and this career is a proud of my skill.</p>
+          </li>
+        </ul>
+      )
+    },
+    { companyName:"Deveron LLC",
+      icon:briefCaseIcon, 
+      role:"Freelancer Front-end Developer", 
+      dates:" Aug 2022 - Jan 2023",
+      stack:[
+        {icon:typeScriptIcon, name:"TypeScript"},
+        {icon:vueIcon, name:"Vue"},
+        {icon:nuxtIcon, name:"Nuxt"}
+      ],
+      description:(
+        <ul>
+          <li>
+            <p>Junglebet is owned by Deveron LLC (Reg. No. 3-102-890136, Av. Pastor Diaz, Jaco, Costa Rica), licensed/regulated by the Autonomous Island of Anjouan, Union of Comoros (Gaming License No. ALSI-062403005-F16), and is legally authorized to conduct gaming operations for games of chance and wagering, having passed all regulatory compliance.</p>
           </li>
           <li>
-            <p>Now I am focusing to build optimized and scalable backend system with my projects. I am learning Java-backend for web and mobile application. </p>
-          </li>
-          <li>
-            <p>In future, I am gonna jump into innovative AI and Gambling software development.</p>
+            <p>I have worked as a freelancer front-end developer, built seamless and modern UI/UX with Nuxt. It was freelance contract and worked for about 7 months. The job was pretty nice for me and this application is a proud of my skill.</p>
           </li>
         </ul>
       )
@@ -250,7 +257,7 @@ As a result, I have grown to a full stack developer.</p>
   
 
  export const infoList = [
-    { icon:assets.codeIcon, title:'Languages', description:'HTML, CSS, JS/TS, PHP, Python, Go' },
+    { icon:assets.codeIcon, title:'Languages', description:'HTML, CSS, JS/TS, PHP, Python' },
     { icon:assets.eduIcon, title:'Education', description:'Bachelor of Computer Science' },
     { icon:assets.projectIcon, title:'Projects', description:'Built over 30 projects' },
  ];

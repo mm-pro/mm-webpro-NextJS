@@ -14,7 +14,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li className='p-3 rounded-full border border-gray-500 flex items-center justify-between hover:bg-amber-300 hover:scale-[120%] duration-500'>
-                    <a title='Github' href="https://github.com/mm-pro" target='_blank'>
+                    <a title='Github' href="https://github.com/midas-pro" target='_blank'>
                         <Image src={assets.githubIcon} alt='' className='w-6'/>
                     </a>
                 </li>
@@ -24,8 +24,8 @@ const Footer = () => {
                     </a>
                     </li>
                 <li className='p-3 rounded-full border border-gray-500 flex items-center justify-between hover:bg-amber-300 hover:scale-[120%] duration-500'>
-                    <a title='Bluesky' href="https://bsky.app/profile/dinh110.bsky.social" target='_blank'>
-                        <Image src={assets.blueskyIcon} alt='' className='w-6'/>
+                    <a title='Bluesky' href="https://x.com/codexnight55" target='_blank'>
+                        <Image src={assets.twitterIcon} alt='' className='w-6'/>
                     </a>
                 </li>
                 <li className='p-3 rounded-full border border-gray-500 flex items-center justify-between hover:bg-amber-300 hover:scale-[120%] duration-500'>
