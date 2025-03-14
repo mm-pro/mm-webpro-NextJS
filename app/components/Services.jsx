@@ -4,7 +4,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div id='services' className='w-full px-[10%] lg:px-[20%] py-10 scroll-mt-20'>
+    <div id='services' className='w-full px-[10%] lg:px-[15%] py-10 scroll-mt-20'>
       <h4 className='text-center mb-2 text-2xl font-Ovo relative'>What I Offer</h4>
       <h2 className='text-center text-5xl font-Ovo'>My Services</h2>
 
