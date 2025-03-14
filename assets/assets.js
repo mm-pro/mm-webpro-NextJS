@@ -157,7 +157,7 @@ import next from 'next'
 
  export const serviceData = [
     { icon:assets.webIcon, title:'Web Development', description:"I have strong web development skills, enabling me to build dynamic, high-performance websites and applications using modern technologies and best practices.",},
-    { icon:assets.mobileIcon, title:'Mobile App', description:"I am proficient in mobile development, creating intuitive and efficient applications for both iOS and Android platforms that offer seamless user experiences",},
+    { icon:assets.mobileIcon, title:'Mobile App', description:"I am proficient in mobile development, creating intuitive and efficient applications for both iOS and Android platforms that offer seamless user experiences.",},
     { icon:assets.apiIcon, title:'API Development and Integration', description:"Creating RESTful or GraphQL APIs to facilitate communication between the front end and back end, as well as integrating third-party APIs.",},
 ];
 
@@ -173,7 +173,7 @@ import next from 'next'
       description:(
         <ul>
           <li>
-            <p>In this company, as a freelance front-end developer I have contributed super innovative web3 AI Tool Development.</p>
+            <p>In this company, as a freelance front-end developer I have contributed super innovative web3 AI App Development.</p>
           </li>
           <li>
             <p>I built seamless UI/UX with Svelte. It was freelance contract and worked for about 6 months. The job was super excited for me and this career is a proud of my skill.</p>
@@ -193,10 +193,10 @@ import next from 'next'
       description:(
         <ul>
           <li>
-            <p>Junglebet is owned by Deveron LLC (Reg. No. 3-102-890136, Av. Pastor Diaz, Jaco, Costa Rica), licensed/regulated by the Autonomous Island of Anjouan, Union of Comoros (Gaming License No. ALSI-062403005-F16), and is legally authorized to conduct gaming operations for games of chance and wagering, having passed all regulatory compliance.</p>
+            <p>Junglebet is owned by Deveron LLC, licensed/regulated by the Autonomous Island of Anjouan, Union of Comoros (Gaming License No. ALSI-062403005-F16), and is legally authorized to conduct gaming operations for games of chance and wagering, having passed all regulatory compliance.</p>
           </li>
           <li>
-            <p>I have worked as a freelancer front-end developer, built seamless and modern UI/UX with Nuxt. It was freelance contract and worked for about 7 months. The job was pretty nice for me and this application is a proud of my skill.</p>
+            <p>I have worked as a freelancer front-end developer, built seamless and modern UI/UX with Nuxt. It was freelance contract and worked for about 7 months. The job was pretty nice and this application is a proud of my skill.</p>
           </li>
         </ul>
       )
@@ -244,8 +244,8 @@ manage employees and reduce company costs by 3%.</p>
       description:(
         <ul>
           <li>
-            <p>As a full time web developer, I have participated in various.
-At that time, I learnt lots of tech and especially I have gained lots of experiences in React, Vue, Svelte, Angular, Node.js, Python/Django and Java.
+            <p>As a full time web developer, I have participated in various project development.
+At that time, I learnt lots of tech and especially I have gained lots of experiences in React, Vue, Svelte, Angular, Node.js and Python/Django.
 Also I learnt team collaboration, tips of project architecture, implementing high-quality code base etc. 
 As a result, I have grown to a full stack developer.</p>
           </li>

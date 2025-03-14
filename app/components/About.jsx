@@ -15,9 +15,9 @@ const About = () => {
             <div className='flex-1'>
                 <p className='mb-4 max-w-2xl font-Ovo'>
                 I'm a Software developer with over 7 years experiences focused on Frontend development. 
-                I am very familiar with coding in Node.js, React.js/Next.js, React Native, Vue.js, SvelteKit and Python/Django. 
-                I have contributed to develop lots of innovative project and would like to work on super excited Gambling & Web3 AI hybrid project.
-                I am trying to learn and use the cutting-edge AI technology to solve business process automation. 
+                I am very familiar with coding in React.js/Next.js, React Native, Vue.js/Nuxt.js, SvelteKit, Node.js and Python/Django. 
+                I have contributed to develop lots of innovative projects and would like to work on super excited Gambling & Web3 AI hybrid project.
+                I am trying to learn cutting-edge AI technology to improve business process. 
                 Adept at creating responsive and intuitive user interfaces, optimizing application performance, and ensuring cross-device compatibility. 
                 I am Vietnamese and I am living in Sweden since 2024.
                 </p>
