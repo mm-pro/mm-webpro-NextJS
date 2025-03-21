@@ -1,16 +1,9 @@
 import { workData, assets } from '@/assets/assets'
-import React, { useState }from 'react'
+import React from 'react'
 import Image from 'next/image'
 
 
 const Work = () => {
-
-    const [visibleProjects, setVisibleProjects] = useState(2);
-
-    // Function to handle "Show more" click
-    const handleShowMore = () => {
-      setVisibleProjects((prev) => prev + 2); // Increase the number of visible projects by 2
-    };
 
   return (
     <div id='work' className='w-full px-[10%] lg:px-[20%] py-10 scroll-mt-20'>
@@ -22,7 +15,7 @@ const Work = () => {
       </p>
 
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 my-4'>
-        {workData.slice(0, visibleProjects).map((project, index)=>(
+        {workData.map((project, index)=>(
           <div key={index} className='rounded-lg relative h-full cursor-pointer group border-2 overflow-hidden border-gray-400 '>
 
             <Image src={project.bgImage.src} alt='' width={500} height={300} className='w-full h-full left-0 top-0 -z-10 hover:scale-105 duration-500 transition-all' />
@@ -39,14 +32,6 @@ const Work = () => {
           </div>
         ))}
       </div>
-      {visibleProjects < workData.length && (
-        <button
-          onClick={handleShowMore}
-          className='mx-auto mt-8 px-10 py-3 border border-gray-500 rounded-full flex items-center hover:bg-amber-300 duration-500 hover:scale-105'
-        >
-          Show more ...
-        </button> 
-      )}
 
     </div>
   )
